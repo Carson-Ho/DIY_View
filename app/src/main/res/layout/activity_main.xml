@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="scut.carson_ho.diy_view.MainActivity"
+
+    >
+    <!--必须添加schemas声明才能使用自定义属性-->
+
+<!-- 注意添加自定义View组件的标签名：包名 + 自定义View类名-->
+    <!--  控件背景设置为黑色-->
+    <scut.carson_ho.diy_view.CircleView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:padding="30dp"
+        app:circle_color="#FF4081"
+         />
+</RelativeLayout>
