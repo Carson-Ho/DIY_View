@@ -52,6 +52,7 @@ public class libraryCircle extends View {
     // 画笔初始化
     private void init() {
 
+
         // 创建画笔
         mPaint1 = new Paint();
         // 设置画笔颜色为蓝色
