@@ -11,7 +11,7 @@
 
 <!-- 注意添加自定义View组件的标签名：包名 + 自定义View类名-->
     <!--  控件背景设置为黑色-->
-    <scut.carson_ho.diy_view.CircleView
+    <scut.carson_ho.circlelibrary.libraryCircle
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#000000"
